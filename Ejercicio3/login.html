@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="robots" content="" />
+    <meta
+      name="description"
+      content="Davur - Restaurant Bootstrap Admin Dashboard + FrontEnd"
+    />
+    <meta
+      property="og:title"
+      content="Davur - Restaurant Bootstrap Admin Dashboard + FrontEnd"
+    />
+    <meta
+      property="og:description"
+      content="Davur - Restaurant Bootstrap Admin Dashboard + FrontEnd"
+    />
+    <meta
+      property="og:image"
+      content="https://davur.dexignzone.com/dashboard/social-image.png"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <title>Login</title>
+    
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./dashboard/xhtml/images/favicon.png"
+    />
+    <link href="./dashboard/xhtml/css/style.css" rel="stylesheet" />
+  </head>
+
+  <body class="h-100">
+    <div class="authincation h-100">
+      <div class="container h-100">
+        <div class="row justify-content-center h-100 align-items-center">
+          <div class="col-xl-6 col-lg-8 col-md-10">
+            <div class="row align-items-center">
+              <div class="card login-card">
+                <div class="card-body">
+                  <div class="auth-form">
+                    <!-- Login Form -->
+                    <div id="loginSection">
+                      <h3 class="text-center mb-4 font-w600">Login</h3>
+                      <!-- Contenedor para mensajes -->
+                      <div id="messageContainer"></div>
+                          <form id="loginForm" action="#" method="post">
+                            <div class="form-group">
+                              <label class="mb-1 text-black"
+                                >Email<span class="required">*</span></label
+                              >
+                              <input
+                                type="email"
+                                class="form-control"
+                                id="email"
+                                name="email"
+                                placeholder="Ingrese su email"
+                                required
+                              />
+                            </div>
+                            <div class="form-group">
+                              <label class="mb-1 text-black"
+                                >Password<span class="required">*</span></label
+                              >
+                              <input
+                                type="password"
+                                class="form-control"
+                                id="password"
+                                name="password"
+                                placeholder="Ingrese su contraseña"
+                                required
+                              />
+                            </div>
+                            <div class="text-center">
+                              <button
+                                type="submit"
+                                id="submitBtn"
+                                class="btn btn-primary btn-block"
+                              >
+                                Iniciar Sesión
+                              </button>
+                            </div>
+                          </form>
+                          <div
+                            class="new-account mt-3 d-flex align-items-center justify-content-center flex-wrap"
+                          >
+                            <small
+                              ><a href="#" id="showForgotPassword"
+                                >¿Olvidaste tu contraseña?</a
+                              ></small
+                            >
+                          </div>
+                    </div>
+
+                    
+                    <div id="forgotSection" style="display: none;">
+                      <h3 class="text-center mb-4 font-w600">Recuperar Contraseña</h3>
+                      
+                      <div id="forgotMessageContainer"></div>
+                          <form id="forgotForm" action="#" method="post">
+                            <div class="form-group">
+                              <label class="mb-1 text-black"
+                                >Email<span class="required">*</span></label
+                              >
+                              <input
+                                type="email"
+                                class="form-control"
+                                id="forgotEmail"
+                                name="email"
+                                placeholder="Ingrese su email"
+                                required
+                              />
+                            </div>
+                            <div class="text-center">
+                              <button
+                                type="submit"
+                                id="forgotSubmitBtn"
+                                class="btn btn-primary btn-block"
+                              >
+                                Enviar
+                              </button>
+                            </div>
+                          </form>
+                          <div
+                            class="new-account mt-3 d-flex align-items-center justify-content-center flex-wrap"
+                          >
+                            <small
+                              ><a href="#" id="showLogin"
+                                >Volver al Login</a
+                              ></small
+                            >
+                          </div>
+                    </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        </div>
+      </div>
+    </div>
+
+    
+    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./dashboard/xhtml/vendor/global/global.min.js"></script>
+    <script src="./dashboard/xhtml/vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+    <script src="./dashboard/xhtml/js/custom.min.js"></script>
+    <script src="./dashboard/xhtml/js/deznav-init.js"></script>
+    
+    <!-- Login Ajax Script -->
+    <script src="login.js"></script>
+  </body>
+</html>

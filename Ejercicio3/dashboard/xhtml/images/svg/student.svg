@@ -1,0 +1,38 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f8f9fa"/>
+  
+  <!-- Computer/Laptop -->
+  <rect x="80" y="120" width="240" height="140" rx="8" fill="#e9ecef" stroke="#6c757d" stroke-width="2"/>
+  <rect x="90" y="130" width="220" height="120" rx="4" fill="#ffffff"/>
+  
+  <!-- Screen content (representing dashboard) -->
+  <rect x="100" y="140" width="200" height="8" rx="2" fill="#007bff"/>
+  <rect x="100" y="155" width="150" height="4" rx="2" fill="#6c757d"/>
+  <rect x="100" y="165" width="180" height="4" rx="2" fill="#6c757d"/>
+  <rect x="100" y="175" width="120" height="4" rx="2" fill="#6c757d"/>
+  
+  <!-- Charts/graphs -->
+  <circle cx="130" cy="200" r="15" fill="#28a745" opacity="0.3"/>
+  <circle cx="170" cy="200" r="12" fill="#ffc107" opacity="0.3"/>
+  <circle cx="210" cy="200" r="18" fill="#dc3545" opacity="0.3"/>
+  
+  <!-- Person/User -->
+  <circle cx="200" cy="80" r="25" fill="#007bff"/>
+  <ellipse cx="200" cy="115" rx="35" ry="20" fill="#007bff"/>
+  
+  <!-- Login elements -->
+  <rect x="160" y="50" width="80" height="6" rx="3" fill="#28a745" opacity="0.8"/>
+  <rect x="160" y="60" width="60" height="6" rx="3" fill="#17a2b8" opacity="0.8"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="350" cy="50" r="8" fill="#ffc107" opacity="0.6"/>
+  <circle cx="50" cy="60" r="6" fill="#dc3545" opacity="0.6"/>
+  <circle cx="340" cy="250" r="10" fill="#28a745" opacity="0.6"/>
+  
+  <!-- Network/connection lines -->
+  <line x1="200" y1="40" x2="250" y2="20" stroke="#007bff" stroke-width="2" opacity="0.4"/>
+  <line x1="200" y1="40" x2="150" y2="20" stroke="#007bff" stroke-width="2" opacity="0.4"/>
+  <line x1="250" y1="20" x2="280" y2="30" stroke="#007bff" stroke-width="2" opacity="0.4"/>
+  <line x1="150" y1="20" x2="120" y2="30" stroke="#007bff" stroke-width="2" opacity="0.4"/>
+</svg>
